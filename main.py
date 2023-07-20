@@ -102,7 +102,7 @@ def compress_button_pressed(image_path, compression_level):
     elif(compression_level=="Medium Compression"):
         compress_img(image_path, size_reduction_percentage=50, quality=80)
     elif((compression_level=="Low Compression")):
-        compress_img(image_path, size_reduction_percentage=90, quality=80)
+        compress_img(image_path, size_reduction_percentage=80, quality=80)
     
     
 
