@@ -5,3 +5,6 @@ A simple tool for compressing images using python with UI
 
 ![image](https://github.com/magician232/customTkinter_Image_Compression_App/assets/108206097/b5eeadd4-7d30-444a-bd3f-8fa7cd5b0f2b)
 
+![image](https://github.com/magician232/customTkinter_Image_Compression_App/assets/108206097/d75d6f8b-0b27-4341-b73e-8a54cd5b011d)
+
+
