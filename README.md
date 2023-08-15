@@ -1,6 +1,8 @@
 # customTkinter_Image_Compression_App
-A simple tool for compressing images using python with UI
-Windows users Download the executable [here](https://drive.google.com/file/d/1rd-_l5bX7-be3jn-mE7UvVVc3wFbeVfC/view?usp=sharing)
+A simple tool for compressing images using Python with UI.
+
+Windows users, download the executable [here](https://drive.google.com/file/d/1rd-_l5bX7-be3jn-mE7UvVVc3wFbeVfC/view?usp=sharing).
+
 
 <div align="center">
   <img src="https://github.com/magician232/customTkinter_Image_Compression_App/assets/108206097/8a8f678d-7619-4b3a-9ee2-156d101b1cee" alt="Image 1" width="430">
