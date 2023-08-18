@@ -113,10 +113,10 @@ frame_1.pack(pady=10, padx=40, fill="both", expand=True)
 
 compression_level = customtkinter.StringVar()  # Variable to store the chosen option
 
-button_0 = customtkinter.CTkButton(master=frame_1, text="Select File", command=selectFile_button_pressed)
+button_0 = customtkinter.CTkButton(master=frame_1, text="Select File", font=(None, 15),command=selectFile_button_pressed)
 button_0.pack(pady=10, padx=10)
 
-selected_file_label = customtkinter.CTkLabel(master=frame_1, text="Selected File: ")
+selected_file_label = customtkinter.CTkLabel(master=frame_1, text="Selected File: ",font=(None, 15))
 selected_file_label.pack(pady=10, padx=10)
 
 optionmenu_1 = customtkinter.CTkOptionMenu(frame_1, values=["High Compression", "Medium Compression", "Low Compression", "No Compression"])
@@ -125,13 +125,13 @@ optionmenu_1.pack(pady=10, padx=10)
 optionmenu_1.configure(variable=compression_level)
 optionmenu_1.set("Compression Level")
 
-compress_button = customtkinter.CTkButton(master=frame_1, text="Compress")
+compress_button = customtkinter.CTkButton(master=frame_1, text="Compress",font=(None, 15))
 compress_button.pack(pady=10, padx=10)
 
 compressed_file_label = customtkinter.CTkLabel(master=frame_1, text="")
 compressed_file_label.pack(pady=10, padx=10)
 
-button_2 = customtkinter.CTkButton(master=frame_1, text="Close", command=destroy_button)
+button_2 = customtkinter.CTkButton(master=frame_1, text="Close", font=(None, 15),command=destroy_button)
 button_2.pack(pady=10, padx=10)
 
 app.mainloop()
